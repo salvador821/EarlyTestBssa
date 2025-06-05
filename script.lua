@@ -1,4 +1,4 @@
--- Create the main frame niggaaa
+-- Create the main frame
 local player = game:GetService("Players").LocalPlayer
 local gui = Instance.new("ScreenGui")
 gui.Name = "CoordinateCopier"
@@ -131,6 +131,10 @@ game:GetService("UserInputService").InputChanged:Connect(function(input)
         update(input)
     end
 end)
+
+-- Parent the GUI to the player
+gui.Parent = player:WaitForChild("PlayerGui")
+
 local Players = game:GetService("Players")
 local PathfindingService = game:GetService("PathfindingService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
