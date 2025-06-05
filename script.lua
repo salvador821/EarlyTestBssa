@@ -147,7 +147,7 @@ local currentFieldPos = Vector3.new(-750.04, 73.12, -92.81) -- Default field pos
 local HIVE_POSITION = Vector3.new(-723.39, 74.99, 27.44) -- Default hive position
 local DEFAULT_TWEEN_SPEED = 20 -- Default speed (higher is slower)
 
-local INACTIVITY_THRESHOLD = 7
+local INACTIVITY_THRESHOLD = 4
 local POLLEN_CHECK_INTERVAL = 0.3
 local FIELD_RADIUS = 50
 local TOKEN_CHECK_INTERVAL = 0.5
